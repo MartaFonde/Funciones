@@ -11,15 +11,14 @@ public class Bol3_Ejer2 {
     
 
     static boolean bisiesto (int año) {
-        if (año%4==0 && año%100!=0  || año%400==0){
-            return true;
-        } else {
-            return false;
-        }
-
+        return año%4==0 && año%100!=0  || año%400==0;
     }
+
     // static boolean bisiesto (int año) {
-       // return año%4==0 && año%100!=0  || año%400==0;
+       // if (año%4==0 && año%100!=0  || año%400==0){
+         //   return true;
+      //  } else {
+        //    return false;
        // }
 
     public static void main (String[] args) {
