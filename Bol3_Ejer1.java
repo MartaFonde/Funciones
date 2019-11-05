@@ -19,13 +19,8 @@ public class Bol3_Ejer1 {
  * @return Devuelve true si el parametro es numero par y false si no lo es
  */
     static boolean par (int num) {
-        if (num%2==0){
-            return true;
-        } else {
-            return false;
-        }
+        return(num%2==0? true: false);
     }
-    //return(num%2==0? true: false);
     // variables booleanas, son resultado de una operación lógica que da valores true o false
 
 /**
@@ -36,7 +31,7 @@ public class Bol3_Ejer1 {
  * @return devuelve la letra P si el numero es positivo y la letra N si el numero es cero o negativo
  */
     static char signo (int num) {
-        return num>0? 'P': 'N';             
+        return (num>0? 'P': 'N');             
     }
 
     public static void main (String args[]) {   
