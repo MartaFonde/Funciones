@@ -7,13 +7,12 @@ public class Bol3_Ejer5{
      * @return true si es primo, false si no lo es
      */
     static boolean numeroPrimo (int n) {
-        boolean numPrimo=true;
         for(int i=n-1; i>1; i--){
             if(n%i==0){
-                numPrimo=false;
+                return false;
             }
         }
-        return numPrimo;
+        return true;
     } 
 
     public static void main(String[] args){
