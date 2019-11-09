@@ -1,6 +1,12 @@
 import java.util.Scanner;
 public class Bol3_Ejer6{
 
+     /**
+     * Compara dos numeros 
+     * @param num1 numero 1
+     * @param num2 numero 2
+     * @return valor en funcion del resultado de la comparacion
+     */
     static int comparacionNumeros (int num1, int num2){
         if (num1<num2){
             return 0;
@@ -11,7 +17,12 @@ public class Bol3_Ejer6{
             return 2;
         }
     }
-
+    
+    /**
+    * Introduccion de datos, validos en intervalo (1-100)
+    * @param num numero introducido por el usuario
+    * @return numero validado
+    */
     static int introduccionDatos (int num) {
         Scanner sc=new Scanner(System.in);
         do{
