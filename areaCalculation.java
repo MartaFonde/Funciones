@@ -31,37 +31,41 @@ public class Bol3_Ejer7 {
         double radio;
         int opcion;
 
-        System.out.println("Cálculo de áreas:");
-        System.out.println("1. Triángulo");
-        System.out.println("2. Rectángulo");
-        System.out.println("3. Cuadrado");
-        System.out.println("4. Círculo");
-        opcion=sc.nextInt();
+        do{
+            System.out.println("Cálculo de áreas:");
+            System.out.println("1. Triángulo");
+            System.out.println("2. Rectángulo");
+            System.out.println("3. Cuadrado");
+            System.out.println("4. Círculo");
+            System.out.println("5. Salir");
+            opcion=sc.nextInt();
 
-        switch(opcion){
-            case 1: //triángulo
-                System.out.print("Base: ");
-                base=sc.nextDouble();
-                System.out.print("Altura: ");
-                altura=sc.nextDouble();
-                System.out.println("Área: "+area(base, altura, false));
-                    break;
-            case 2: //rectángulo
-                System.out.print("Base: ");
-                base=sc.nextDouble();
-                System.out.print("Altura: ");
-                altura=sc.nextDouble();
-                System.out.println("Área: "+area(base, altura, true));
-                    break;
-            case 3: //cuadrado
-                System.out.print("Lado: ");
-                lado=sc.nextDouble();
-                System.out.println("Área: "+area(lado, lado, true));
-                    break;
-            case 4: //círculo
-                System.out.print("Radio: ");
-                radio=sc.nextDouble();
-                System.out.println("Área: "+areaCirculo(radio));                    
-        }
+            switch(opcion){
+                case 1: //triángulo
+                    System.out.print("Base: ");
+                    base=sc.nextDouble();
+                    System.out.print("Altura: ");
+                    altura=sc.nextDouble();
+                    System.out.println("Área: "+area(base, altura, false));
+                        break;
+                case 2: //rectángulo
+                    System.out.print("Base: ");
+                    base=sc.nextDouble();
+                    System.out.print("Altura: ");
+                    altura=sc.nextDouble();
+                    System.out.println("Área: "+area(base, altura, true));
+                        break;
+                case 3: //cuadrado
+                    System.out.print("Lado: ");
+                    lado=sc.nextDouble();
+                    System.out.println("Área: "+area(lado, lado, true));
+                        break;
+                case 4: //círculo
+                    System.out.print("Radio: ");
+                    radio=sc.nextDouble();
+                    System.out.println("Área: "+areaCirculo(radio));
+             }       
+        } while (opcion!=5);
+        
     }
 }
