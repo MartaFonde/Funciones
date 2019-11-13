@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Bol3_Ejer3 {
     
 /**
- * Calcula la potencia de un número. Multiplica un número por si mismo varias veces. 
+ * Calcula la potencia de un número. 
  * @param base factor que se repite 
  * @param exponente número de veces que se repite el factor
  * Si es un número negativo se parte de la inversa del número elevado al mismo exponente pero positivo
