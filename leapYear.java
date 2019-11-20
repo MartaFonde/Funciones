@@ -3,9 +3,7 @@ public class Bol3_Ejer2 {
 
     /**
      * Funcion que analiza si un año es bisiesto o no lo es
-     * 
      * @param año a evaluar si es bisiesto o no
-     * 
      * @return la funcion devuelve true si el año es bisiesto y false si no lo es
     */
     
