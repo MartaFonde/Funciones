@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class Bol3_Ejer1 {
 /**
  * Imprime en pantalla N lineas en blanco 
- * 
  * @param N Especifica numero de lineas
  */
     static void lineasBlanco (int n) {
@@ -13,9 +12,7 @@ public class Bol3_Ejer1 {
 /**
  * 
  * Analiza si un numero entero es par 
-
  * @param num validar si es entero
- * 
  * @return Devuelve true si el parametro es numero par y false si no lo es
  */
     static boolean par (int num) {
@@ -25,9 +22,7 @@ public class Bol3_Ejer1 {
 
 /**
  * Evalua si un numero entero es par o impar 
- * 
  * @param num a evaluar signo
- * 
  * @return devuelve la letra P si el numero es positivo y la letra N si el numero es cero o negativo
  */
     static char signo (int num) {
